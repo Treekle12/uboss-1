@@ -1,7 +1,7 @@
- body {
+body {
   background-color: #222;
-  color: #3527ce;
-  font-family: Comic Sans MS, Comic Sans, cursive;
+  color: #fff;
+  font-family: "Noto Sans", sans-serif;
   margin: 0;
   height: 100vh;
   overflow: hidden;
@@ -26,16 +26,16 @@ nav {
 }
 
 .menu li a {
-  color: #bbe0ed;
+  color: #fff;
   text-decoration: none;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.3s ease-in-out;
   border: 2px solid transparent;
   border-radius: 10px;
-  padding: 9px 12px;
+  padding: 8px 12px;
 }
 
 .menu li a:hover {
-  border-color: #3527ce;
+  border-color: #777;
 }
 
 .main-content {
@@ -67,14 +67,8 @@ p {
 }
 
 .description {
-  font-size: 18px;
+  font-size: 14px;
   margin-top: 10px;
-   animation: mymove 5s;
-}
-
-@keyframes mymove {
-  from {font-size: 12px;}
-  to {font-size: 18px}
 }
 
 .view-button {
