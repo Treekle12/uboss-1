@@ -136,7 +136,11 @@ p {
 .tutorial-links a:hover {
   border-color: #3527ce;
 }
-
+center {
+  margin: auto;
+  width: 20%;
+  padding: 10px;
+}
 
 .button-40 {
   background-color: #111827;
