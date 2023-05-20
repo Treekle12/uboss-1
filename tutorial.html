@@ -11,43 +11,49 @@
 
 <body>
   <nav>
+
     <ul class="menu">
       <li><a href="tutorial.html" title="Tutorial for How to use <b>Uboss</b> Page you are on."><b>Tutorial</b></a>
       <li><a href="https://discord.gg/bluehatcrew/" title="Our Discord Server">Discord</a></li>
       <li><a href="https://github.com/BlueHatCrew/">Github</a></li>
     </ul>
   </nav>
-  
-  <div class="main-content">
-    <div class="project-grid">
-      <div class="project">
-        <img src="/images/gitloaf.png" alt="Gitloaf Icon">
+
+ <div class="main-content">
+    <div class="tutorial-grid">
+      <div class="tutorial">
+      
         <h2>Gitloaf</h2>
-        <p class="description">Gitloaf is an open-source CDN powered by Node.js that serves files from GitHub with their correct Content-Type headers, unlike the normal GitHub raw content.</p>
-        <div class="project-links">
-          <a href="https://gitloaf.com" class="demo-link">Demo</a>
+        <p class="description">test </p>
+
+        <div class="tutorial-links">
+          <a href="https://gitloaf.com" class="demo-link">Discord</a>
           <a href="https://github.com/carbonutilities/gitloaf" class="github-link">Github</a>
+        
+<p style="display:none"><input type="text" value="Hellod World" id="myInput"></p>
+
+<button class="button-40" role="button" onclick="myFunction()">Click for Code</button>
+
+<script>
+function myFunction() {
+  // Get the text field
+  var copyText = document.getElementById("myInput");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+  // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+  
+  // Alert the copied text
+  alert("Done 🤓");
+}
+</script>
         </div>
       </div>
-      <div class="project">
-        <img id="libimg" src="/images/liberium.png" alt="Liberium Icon">
-        <h2>Liberium</h2>
-        <p class="description">Liberium is a lightweight, open source, feature rich, and free to use javascript library made for the developers, new or old, of the unblocking community.</p>
-        <div class="project-links">
-          <a href="https://liberium-testing.albios.repl.co/" class="demo-link">Demo</a>
-          <a href="https://github.com/carbonutilities/liberium" class="github-link">Github</a>
+      
         </div>
-      </div>
-      <div class="project">
-        <img src="https://cdn1.iconfinder.com/data/icons/crystal-1/60/crystal_graphite-512.png" alt="graphite img">
-        <h2>Graphite</h2>
-        <p class="description">A super-set of the localStorage API with support for objects, arrays, and key-values. Made to extend the normal functionality of localstorage.</p>
-        <div class="project-links">
-          <a href="#" class="demo-link">Demo</a>
-          <a href="https://github.com/carbonutilities/graphite" class="github-link">Github</a>
-        </div>
-      </div>
-    </div>
-  </div>
+   
 </body>
 </html>
